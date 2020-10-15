@@ -5,6 +5,8 @@
 #define WIDTH 800
 #define HEIGHT 600
 
+void polygone(int, int);
+
 int main() {
     init_drawing(WIDTH, HEIGHT, 0.5);
 
