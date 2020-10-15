@@ -11,7 +11,7 @@ void line_of_square(int, int);
 int main() {
     int tour,i;
     
-    init_drawing(WIDTH, HEIGHT, 0.5);
+    init_drawing(WIDTH, HEIGHT, 0.01);
 
     turn(180,LEFT);
     move(WIDTH/2-50);
