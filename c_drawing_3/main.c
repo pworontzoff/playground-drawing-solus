@@ -12,7 +12,7 @@ int main() {
 
     // déplacement avant de démarrer le dessin :
     turn(180,LEFT);
-    move(WIDTH/2-20);
+    move(WIDTH/4);
     turn(90,LEFT);
     move(HEIGHT/2-20);
     turn(90,LEFT);
