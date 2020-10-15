@@ -9,7 +9,7 @@ void polygone(int, int);
 void flower(int, int);
 
 int main() {
-    init_drawing(WIDTH, HEIGHT, 0.5);
+    init_drawing(WIDTH, HEIGHT, 0.1);
 
     flower(50,10);
 
