@@ -1,12 +1,9 @@
-# Exercice 3
+# Exercice 3 : Solution
 
-En utilisant les commandes fournies par la bibliothèque `drawing.h`, écrire une fonction permettant de tracer n'importe quel polygone régulier convexe (cf [définition polygone régulier](https://fr.wikipedia.org/wiki/Polygone_r%C3%A9gulier)). La fonction recevra en paramètre le nombre de coté du polygone et la taille des cotés.
+## L'énoncé
 
-## Quelques polygones réguliers
+https://tech.io/playgrounds/51454/drawing/exercice-3
 
-|--------:|-------:|-------:|-------:|
-|![1](Images/ex2_A.JPG)|![2](Images/ex2_B.JPG)|![3](Images/ex2_C.JPG)|![4](Images/ex2_D.JPG)|
-
-
+## Une solution type
 
 @[Exercice 3]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "drawing_3"})
