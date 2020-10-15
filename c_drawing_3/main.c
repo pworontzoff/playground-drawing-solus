@@ -10,6 +10,14 @@ void polygone(int, int);
 int main() {
     init_drawing(WIDTH, HEIGHT, 0.5);
 
+    // déplacement avant de démarrer le dessin :
+    turn(180,LEFT);
+    move(WIDTH/2-20);
+    turn(90,LEFT);
+    move(HEIGHT/2-20);
+    turn(90,RIGHT);
+    
+    // dessiner :
     polygone(15,40);
 
     display_drawing();
