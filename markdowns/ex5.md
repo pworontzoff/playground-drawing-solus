@@ -1,7 +1,9 @@
-# Exercice 5
+# Exercice 5 : Solution
 
-En utilisant les commandes fournies par la bibliothèque `drawing.h`, réaliser la forme présentée ci-dessous. Penser bien à décomposer le problème en sous-problème.
+## L'énoncé
 
-![imgage exercice](Images/ex4.JPG)
+https://tech.io/playgrounds/51454/drawing/exercice-5
+
+## Une solution type
 
 @[Exercice 5]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "drawing_5"})
