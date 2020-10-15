@@ -14,8 +14,23 @@ plan:
   statement: markdowns/ex5.md
   
 projects:
-  drawing:
-    root: /c_drawing
+  drawing_1:
+    root: /c_drawing_1
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
+  drawing_2:
+    root: /c_drawing_2
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
+  drawing_3:
+    root: /c_drawing_3
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
+  drawing_4:
+    root: /c_drawing_4
     runner:
       name: techio/cmake-gcc-runner
       version: latest
