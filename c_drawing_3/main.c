@@ -15,7 +15,7 @@ int main() {
     move(WIDTH/2-20);
     turn(90,LEFT);
     move(HEIGHT/2-20);
-    turn(90,RIGHT);
+    turn(90,LEFT);
     
     // dessiner :
     polygone(15,40);
