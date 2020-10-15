@@ -13,13 +13,15 @@ int main() {
     
     init_drawing(WIDTH, HEIGHT, 0.01);
 
+    // déplacement avant de démarrer le dessin :
     turn(180,LEFT);
     move(WIDTH/2-50);
     turn(90,RIGHT);
     move(HEIGHT/2-150);
     turn(90,RIGHT);
 
-	for (i=0;i<5;i++) {
+    // dessiner :
+    for (i=0;i<5;i++) {
     	line_of_square(15,20);
     	turn(144,RIGHT);
 	}
