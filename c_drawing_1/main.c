@@ -6,6 +6,8 @@
 #define HEIGHT 600
 
 int main() {
+    int i;
+    
     init_drawing(WIDTH, HEIGHT, 0.5);
 
     for (i=0;i<4;i++) {
