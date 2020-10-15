@@ -34,6 +34,11 @@ projects:
     runner:
       name: techio/cmake-gcc-runner
       version: latest
+  drawing_5:
+    root: /c_drawing_5
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
   sample:
     root: /c_drawing_sample
     runner:
