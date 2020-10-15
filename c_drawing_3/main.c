@@ -8,11 +8,16 @@
 int main() {
     init_drawing(WIDTH, HEIGHT, 0.5);
 
-    for (i=0;i<4;i++) {
-        draw(50);
-        turn(90,LEFT);
-    }
+    polygone(15,40);
 
     display_drawing();
     return 0;
+}
+
+void polygone(int length, int side) {
+    int i;
+    for (i=0;i<side;i++) {
+        draw(length);
+        turn(360/side,LEFT);
+    }
 }
