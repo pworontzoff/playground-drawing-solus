@@ -12,14 +12,14 @@ int main() {
     
     // déplacement avant de démarrer le dessin :
     turn(180,LEFT);
-    move(WIDTH/2-50);
+    move(WIDTH/2-20);
     turn(90,LEFT);
     move(HEIGHT/2-20);
     turn(90,LEFT);
 
     // dessiner :
     for (i=0;i<4;i++) {
-        draw(50);
+        draw(110);
         turn(90,LEFT);
     }
 
