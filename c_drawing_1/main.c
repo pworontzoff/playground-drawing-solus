@@ -9,7 +9,15 @@ int main() {
     int i;
     
     init_drawing(WIDTH, HEIGHT, 0.5);
+    
+    // déplacement avant de démarrer le dessin :
+    turn(180,LEFT);
+    move(WIDTH/2-50);
+    turn(90,LEFT);
+    move(HEIGHT/2-20);
+    turn(90,LEFT);
 
+    // dessiner :
     for (i=0;i<4;i++) {
         draw(50);
         turn(90,LEFT);
