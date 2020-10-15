@@ -11,13 +11,14 @@ int main() {
     
     init_drawing(WIDTH, HEIGHT, 0.5);
     
+    // déplacement avant de démarrer le dessin :
     turn(180,LEFT);
     move(WIDTH/2-50);
-    turn(90,RIGHT);
-    move(HEIGHT/2-150);
-    turn(90,RIGHT);
+    turn(90,LEFT);
+    move(HEIGHT/2-20);
+    turn(90,LEFT);
     
-    
+    // dessiner :
     turn(90,LEFT);
     draw(taille);
     turn(30,RIGHT);
