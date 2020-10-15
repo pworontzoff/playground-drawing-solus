@@ -1,7 +1,9 @@
-# Exercice 2
+# Exercice 2 : Solution
 
-En utilisant les commandes fournies par la bibliothèque `drawing.h`, tracer le motif ci-dessous. Attention, il est interdit de passer 2 fois sur le même trait.
+## L'énoncé
 
-![Image Exercice](Images/ex2.JPG)
+https://tech.io/playgrounds/51454/drawing/exercice-2
+
+## Une solution type
 
 @[Exercice 2]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "drawing_2"})
