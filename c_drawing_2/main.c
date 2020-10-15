@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "drawing.h"
 
-#define WIDTH 400
-#define HEIGHT 400
+#define WIDTH 200
+#define HEIGHT 220
 
 int main() {
     int taille = 100;
