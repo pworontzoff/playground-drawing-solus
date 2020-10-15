@@ -2,14 +2,21 @@
 #include <stdlib.h>
 #include "drawing.h"
 
-#define WIDTH 800
-#define HEIGHT 600
+#define WIDTH 400
+#define HEIGHT 400
 
 int main() {
     int taille = 100;
     int taille2 = round(sqrt(taille*taille*2));
     
     init_drawing(WIDTH, HEIGHT, 0.5);
+    
+    turn(180,LEFT);
+    move(WIDTH/2-50);
+    turn(90,RIGHT);
+    move(HEIGHT/2-150);
+    turn(90,RIGHT);
+    
     
     turn(90,LEFT);
     draw(taille);
