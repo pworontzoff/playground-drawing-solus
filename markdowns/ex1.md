@@ -1,7 +1,9 @@
-# Exercice 1 
+# Exercice 1 : Solution
 
-En utilisant les commandes fournies par la bibliothèque `drawing.h`, tracer un carré.
+## Enoncé
 
-![imgage exercice](Images/ex1.JPG)
+https://tech.io/playgrounds/51454/drawing/exercice-1
+
+## Une solution type
 
 @[Sample paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "drawing"})
