@@ -13,9 +13,9 @@ int main() {
     
     // déplacement avant de démarrer le dessin :
     turn(180,LEFT);
-    move(WIDTH/2-50);
+    move(WIDTH/2-170);
     turn(90,RIGHT);
-    move(HEIGHT/2-150);
+    move(HEIGHT/2-120);
     turn(90,RIGHT);
 
     // dessiner :
