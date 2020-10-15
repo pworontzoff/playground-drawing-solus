@@ -4,4 +4,4 @@ En utilisant les commandes fournies par la bibliothèque `drawing.h`, réaliser 
 
 ![imgage exercice](Images/ex3.JPG)
 
-@[Sample paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "drawing"})
+@[Exercice 4r]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "drawing_4"})
