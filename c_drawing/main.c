@@ -6,7 +6,7 @@
 #define HEIGHT 600
 
 int main() {
-    init_drawing(WIDHT, HEIGHT, 0.25);
+    init_drawing(WIDHT, HEIGHT, 0.5);
     
     display_drawing();
     return 0;
