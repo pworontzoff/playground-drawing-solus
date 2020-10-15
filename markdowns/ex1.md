@@ -1,6 +1,6 @@
 # Exercice 1 : Solution
 
-## Enoncé
+## L'énoncé
 
 https://tech.io/playgrounds/51454/drawing/exercice-1
 
