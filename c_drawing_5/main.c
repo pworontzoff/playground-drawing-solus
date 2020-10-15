@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "drawing.h"
 
-#define WIDTH 800
-#define HEIGHT 600
+#define WIDTH 400
+#define HEIGHT 400
 
 void polygone(int, int);
 void line_of_square(int, int);
