@@ -98,8 +98,8 @@ void _move(struct _drawing *draw, struct _coordinate_lst **movement, int length)
 
     //printf("x : %d - y : %d \n",draw->current.x,draw->current.y);
 
-    new_coord.x = round(length * cos(draw->angle) + draw->current.x);
-    new_coord.y = round(length * sin(draw->angle) + draw->current.y);
+    new_coord.x = round((double)length * cos(draw->angle) + (double)draw->current.x);
+    new_coord.y = round((double)length * sin(draw->angle) + (double)draw->current.y);
 
     if (*movement==NULL) {
         _push(movement,draw->current, length, cTranspa);
