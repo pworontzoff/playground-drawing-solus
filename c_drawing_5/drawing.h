@@ -16,8 +16,8 @@ struct RGB {
 };
 
 struct _coordinate {
-    int x;
-    int y;
+    float x;
+    float y;
 };
 
 struct _coordinate_lst {
