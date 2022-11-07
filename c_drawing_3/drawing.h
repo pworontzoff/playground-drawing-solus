@@ -16,8 +16,8 @@ struct RGB {
 };
 
 struct _coordinate {
-    float x;
-    float y;
+    double x;
+    double y;
 };
 
 struct _coordinate_lst {
@@ -30,7 +30,7 @@ struct _coordinate_lst {
 struct _drawing {
     int height;
     int width;
-    float angle;
+    double angle;
     int nbLines;
     float anim_duration;
     struct RGB color;
