@@ -8,7 +8,7 @@
 void polygone(int, int);
 
 int main() {
-    init_drawing(WIDTH, HEIGHT, 0.5);
+    init_drawing(WIDTH, HEIGHT, 0.1);
 
     // déplacement avant de démarrer le dessin :
     turn(180,LEFT);
@@ -18,7 +18,7 @@ int main() {
     turn(90,LEFT);
     
     // dessiner :
-    polygone(15,40);
+    polygone(20,13);
 
     display_drawing();
     return 0;
