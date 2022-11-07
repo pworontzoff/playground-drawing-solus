@@ -28,6 +28,6 @@ void polygone(int length, int side) {
     int i;
     for (i=0;i<side;i++) {
         draw(length);
-        turn(360/side,LEFT);
+        turn(360.0/side,LEFT);
     }
 }
